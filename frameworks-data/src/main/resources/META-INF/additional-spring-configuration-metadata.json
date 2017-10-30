@@ -1,0 +1,7 @@
+{"properties": [
+  {
+    "name": "gj.data.base_package",
+    "type": "java.lang.String",
+    "description": "Base package to search for type handlers ,type aliases,entities."
+  }
+]}
