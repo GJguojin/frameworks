@@ -15,8 +15,6 @@ import org.apache.shiro.subject.PrincipalCollection;
 /**
  * shiro身份校验核心类 默认
  * 
- * @author 作者: z77z
- * @date 创建时间：2017年2月10日 下午3:19:48
  */
 
 public class DefaultUserRealm extends AuthorizingRealm {
