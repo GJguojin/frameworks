@@ -39,7 +39,7 @@ public class ShiroAutoConfiguration implements EnvironmentAware {
 	}
 
 	/**
-	 * 身份认证realm; (这个需要自己写，账号密码校验；权限等)
+	 * 身份认证默认realm
 	 * 
 	 * @return
 	 */
