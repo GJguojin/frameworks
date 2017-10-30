@@ -50,10 +50,10 @@ public class CacheAutoConfiguration {
 
 	@Bean
 	public RedisSerializer redisSerializer() {
-		 ObjectMapper mapper = new ObjectMapper();
-		 mapper.enableDefaultTyping(DefaultTyping.NON_FINAL, As.PROPERTY);
-		 return new GenericJackson2JsonRedisSerializer(mapper);
-//		return new FSTSerializer();
+//		 ObjectMapper mapper = new ObjectMapper();
+//		 mapper.enableDefaultTyping(DefaultTyping.NON_FINAL, As.PROPERTY);
+//		 return new GenericJackson2JsonRedisSerializer(mapper);
+		 return new FSTSerializer();
 	}
 
 }
